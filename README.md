@@ -22,4 +22,4 @@ Passbook summary: dictionary, .update(), sorted() with key=
 Palindrome: list, .append(), reversed a string by [::-1], f-string => f"{var}"  
 
 ## 208-07
-Budget List: dictionary, f-string => f"{var}"  
+Budget List: dictionary, f-string => f"{var}", custom Exception, raise(throw) Exception, try: ... except:  
