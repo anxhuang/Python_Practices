@@ -23,3 +23,6 @@ Palindrome: list, .append(), reversed a string by [::-1], f-string => f"{var}"
 
 ## 208-07
 Budget List: dictionary, f-string => f"{var}", custom Exception, raise(throw) Exception, try: ... except:  
+
+## 208-08
+File I/O: with open(file_path, access_mode, encoding="UTF-8") as f, csv.reader(f), json.load(f)  
