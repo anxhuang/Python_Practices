@@ -26,3 +26,6 @@ Budget List: dictionary, f-string => f"{var}", custom Exception, raise(throw) Ex
 
 ## 208-08
 File I/O: with open(file_path, access_mode, encoding="UTF-8") as f, csv.reader(f), json.load(f)  
+
+## 208-09
+E-mail Check: regular expression re.match, filter(), lambda, threading  
