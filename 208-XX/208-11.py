@@ -17,3 +17,5 @@ print(th)
 print(td)
 for i in range(0,4):
     print(th[i]+": "+td[i])
+
+input("Enter to exit")
