@@ -1,6 +1,7 @@
-import re, threading
+import re
+import threading
 
-pattern = r"^[\w+\-*\.?]+\w+@[\w+\.?]+\.[a-z]+$"
+pattern = r"[\w+\-*\.?]+\w+@[\w+\.?]+\.[a-z]+"
 
 
 class matchFile(threading.Thread):
@@ -17,7 +18,11 @@ class matchFile(threading.Thread):
         # additional example for pattern match test
         # rows.append("te_s-T.num__-123@re01.matchesmail.net")
 
+        # 可使用filter + lambda
         emails = filter(lambda row: re.match(pattern, row), rows)
+        # 可使用re.findall , 結果和上列相同
+        emails = re.findall(pattern, " ".join(rows))
+
         mi.join()  # 等使用者輸入完畢再列印
         print("====== 檔案內有效email address如下 ======")
         for mail in emails:

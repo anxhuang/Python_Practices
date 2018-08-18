@@ -29,3 +29,10 @@ File I/O: with open(file_path, access_mode, encoding="UTF-8") as f, csv.reader(f
 
 ## 208-09
 E-mail Check: regular expression re.match, filter(), lambda, threading  
+
+## 208-10
+HTML Parse: requests, html.parser.HTMLParser, map()
+
+## 208-11
+BS4 Parser: BeautifulSoup4, parser:lxml  
+
