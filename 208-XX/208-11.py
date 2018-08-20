@@ -8,10 +8,11 @@ code.encoding = "UTF-8"
 html = code.text
 
 bs = bs4.BeautifulSoup(html, "lxml")
+bs = bs.find("table", class_="table table-bordered table-36hr")
 th = map(lambda tag: tag.get_text(), bs.find_all("th"))
 td = map(lambda tag: tag.get_text(), bs.find_all("td"))
-th = list(th)[0:4]
-td = list(td)[0:4]
+th = list(th)
+td = list(td)
 
 print(th)
 print(td)
