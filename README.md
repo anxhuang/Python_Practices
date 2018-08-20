@@ -34,7 +34,7 @@ E-mail Check: regular expression re.match, filter(), lambda, threading
 HTML Parse: requests, html.parser.HTMLParser, map()
 
 ## 208-11
-BS4 Parser: BeautifulSoup4, .find("tag", class_="hole class group name") parser:lxml  
+BS4 Parser: BeautifulSoup4, .find("tag", class_="hole class group name"), parser:lxml  
 
 ## 208-12
 Selenium webdriver: sys.platform, os.path, time.sleep(sec), selenium.webdriver, .find_elements_by_tag_name("tag"), .get_attribute("attr")  
