@@ -39,3 +39,6 @@ BS4 Parser: BeautifulSoup4, .find("tag", class_="hole class group name"), parser
 ## 208-12
 Selenium webdriver: sys.platform, os.path, time.sleep(sec), selenium.webdriver, .find_elements_by_tag_name("tag"), .get_attribute("attr")  
 
+## 208-13
+File to numpy: download file by .urlretrieve(url, file), np.genfromtxt(file, attrs), np.array operation  
+
