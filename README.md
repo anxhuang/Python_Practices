@@ -42,3 +42,9 @@ Selenium webdriver: sys.platform, os.path, time.sleep(sec), selenium.webdriver, 
 ## 208-13
 File to numpy: download file by .urlretrieve(url, file), np.genfromtxt(file, attrs), np.array operation  
 
+## 208-14
+Numpy statistics: np.max(ar), np.min(ar), np.mean(ar), np.median(ar), np.average(ar1, weights=ar2)  
+
+## 208-15
+MatPlot: Pyplot, plt.figure(), plt.plot(), plt.xlabel, plt.ylabel(), plt.show(), np.percentile()  
+
