@@ -48,3 +48,6 @@ Numpy statistics: np.max(ar), np.min(ar), np.mean(ar), np.median(ar), np.average
 ## 208-15
 MatPlot: Pyplot, plt.figure(), plt.plot(), plt.xlabel, plt.ylabel(), plt.show(), np.percentile()  
 
+## 208-16
+Pandas: pd.read_csv(), df.shape, .iloc[row,col], .to_numeric(Series, error='coerce'), Series.name, .mean(skipna=True)  
+
