@@ -51,3 +51,9 @@ MatPlot: Pyplot, plt.figure(), plt.plot(), plt.xlabel, plt.ylabel(), plt.show(),
 ## 208-16
 Pandas: pd.read_csv(), df.shape, .iloc[row,col], .to_numeric(Series, error='coerce'), Series.name, .mean(skipna=True)  
 
+## 208-17
+Pandas: df.replace(), df.drop(), df.rename()  
+
+## 208-18
+Pandas: followed 208-17, df.astype(), df.agg(["method1","method2"]), pd.options.display.float_format = "{:format_expression}".format  
+
